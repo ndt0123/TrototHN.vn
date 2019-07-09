@@ -67,7 +67,7 @@
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-5">
 					<img src="images/avatar.jpg" class="img-thumbnail">
 				</div>
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-7" style="font-size: 23px; margin: 10px;">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-7" style="font-size: 23px; margin: 10px 0px; color: #9a9999;">
 					<?php
 						if(isset($_SESSION['user_name'])) {
 							echo $_SESSION['user_name'];
@@ -76,7 +76,64 @@
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
-				anh em mình là một gia đình
+				<div class="col-xs-12" style="border: solid 1px #d4d0d0; padding: 10px 0px; margin: 10px 0px; border-radius: 4px;">
+					<div class="row">
+						<div class="col-xs-3">
+							<img src="images/avatar.jpg" class="img-responsive" style="margin-left: 10px;">
+						</div>
+						<div class="col-md-8 col-xs-7">
+							<div class="row">
+								<div class="col-xs-12" style="font-size: 23px;">
+									Cho thuê phòng trọ khu vực mỹ đình
+								</div>
+								<div class="col-xs-12" style="">
+									Phòng trọ kiể mới chung cư mini đầy đủ tiện nghi trang trí đẹp trang nhã có tủ đồ bàn ghế như nhà dân
+									nhưng đéo muốn cho thuê
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-xs-2">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/fix_icon_16.png" style="margin: 10px 0px;">
+								</div>
+								<div class="col-xs-12">
+									<img src="images/delete_icon_16.png" style="margin: 10px 0px;">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-xs-12" style="border: solid 1px #d4d0d0; padding: 10px 0px; margin: 10px 0px; border-radius: 4px;">
+					<div class="row">
+						<div class="col-xs-3">
+							<img src="images/avatar.jpg" class="img-responsive" style="margin-left: 10px;">
+						</div>
+						<div class="col-md-8 col-xs-7">
+							<div class="row">
+								<div class="col-xs-12" style="font-size: 23px;">
+									Cho thuê phòng trọ khu vực mỹ đình
+								</div>
+								<div class="col-xs-12" style="">
+									Phòng trọ kiể mới chung cư mini đầy đủ tiện nghi trang trí đẹp trang nhã có tủ đồ bàn ghế như nhà dân
+									nhưng đéo muốn cho thuê
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1 col-xs-2">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/fix_icon_16.png" style="margin: 10px 0px;">
+								</div>
+								<div class="col-xs-12">
+									<img src="images/delete_icon_16.png" style="margin: 10px 0px;">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
