@@ -16,18 +16,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles/CSS.css">
 	<style type="text/css">
-		.room_info {
-			border: solid 1px #d2cdcd;
-			margin: 0px;
-			padding: 5px 15px;
+		button {
+			margin: 0px 10px;
 		}
-		.room_content {
-			background-color: #f8f8f8;
-		}
-		.item > img { 
-			margin: 0 auto; 
-		}
-
 	</style>
 
 </head>
@@ -76,64 +67,56 @@
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
-				<div class="col-xs-12" style="border: solid 1px #d4d0d0; padding: 10px 0px; margin: 10px 0px; border-radius: 4px;">
+
+				<div class="col-xs-12" style="padding: 0px; font-size: 23px; color: green;">
+					Các căn phòng đã đăng
+				</div>
+
+				<div class="col-xs-12" style="border: solid 1px #d4d0d0; padding: 10px 0px; margin: 10px 0px; border-radius: 4px; height: 145px;">
 					<div class="row">
-						<div class="col-xs-3">
-							<img src="images/avatar.jpg" class="img-responsive" style="margin-left: 10px;">
+						<div class="col-md-3 col-xs-4">
+							<img src="uploads/6.jpg" style="height: 125px; width: 100%; object-fit: scale-down; margin-left: 10px;">
 						</div>
-						<div class="col-md-8 col-xs-7">
+						<div class="col-md-9 col-xs-8">
 							<div class="row">
-								<div class="col-xs-12" style="font-size: 23px;">
-									Cho thuê phòng trọ khu vực mỹ đình
+								<div class="col-xs-12" style="font-size: 23px; overflow: hidden; height: 30px;">
+									Cho thuê phòng trọ khu vực mỹ đình gfdg fgfgfg fg fgf gfg fg fgf
 								</div>
-								<div class="col-xs-12" style="">
-									Phòng trọ kiể mới chung cư mini đầy đủ tiện nghi trang trí đẹp trang nhã có tủ đồ bàn ghế như nhà dân
-									nhưng đéo muốn cho thuê
-								</div>
-							</div>
-						</div>
-						<div class="col-md-1 col-xs-2">
-							<div class="row">
-								<div class="col-xs-12">
-									<img src="images/fix_icon_16.png" style="margin: 10px 0px;">
+								<div class="col-xs-12" style="overflow: hidden; height: 60px;">
+									Phòng trọ kiể mới chung cư mini đầy đủ tiện nghi trang trí đẹp trang nhã có tủ đồ bàn ghế như nhà dân nhưng đéo muốn cho thuê fg fgfg fg fgfg f gfg fggfgfgrgrgjf gfdgo fdghjfdhg fhgjhfd gkhfdg fhgkjfd gjfdhgkfdkg fdhgk hfdjgh fdhgkjfd hgkhfdg hfdjg kfdhgkdfhgk
 								</div>
 								<div class="col-xs-12">
-									<img src="images/delete_icon_16.png" style="margin: 10px 0px;">
+									<button class="btn btn-default btn-sm pull-right" type="button">Xóa</button>
+									<button class="btn btn-default btn-sm pull-right" type="button">Sửa</button>
 								</div>
 							</div>
-						</div>
-						
+						</div>						
 					</div>
 				</div>
-				<div class="col-xs-12" style="border: solid 1px #d4d0d0; padding: 10px 0px; margin: 10px 0px; border-radius: 4px;">
+
+				<div class="col-xs-12" style="border: solid 1px #d4d0d0; padding: 10px 0px; margin: 10px 0px; border-radius: 4px; height: 145px;">
 					<div class="row">
-						<div class="col-xs-3">
-							<img src="images/avatar.jpg" class="img-responsive" style="margin-left: 10px;">
+						<div class="col-md-3 col-xs-4">
+							<img src="uploads/2.jpg" style="height: 125px; width: 100%; object-fit: scale-down; margin-left: 10px;">
 						</div>
-						<div class="col-md-8 col-xs-7">
+						<div class="col-md-9 col-xs-8">
 							<div class="row">
-								<div class="col-xs-12" style="font-size: 23px;">
-									Cho thuê phòng trọ khu vực mỹ đình
+								<div class="col-xs-12" style="font-size: 23px; overflow: hidden; height: 30px;">
+									Cho thuê phòng trọ khu vực mỹ đình gfdg fgfgfg fg fgf gfg fg fgf
 								</div>
-								<div class="col-xs-12" style="">
-									Phòng trọ kiể mới chung cư mini đầy đủ tiện nghi trang trí đẹp trang nhã có tủ đồ bàn ghế như nhà dân
-									nhưng đéo muốn cho thuê
-								</div>
-							</div>
-						</div>
-						<div class="col-md-1 col-xs-2">
-							<div class="row">
-								<div class="col-xs-12">
-									<img src="images/fix_icon_16.png" style="margin: 10px 0px;">
+								<div class="col-xs-12" style="overflow: hidden; height: 60px;">
+									Phòng trọ kiể mới chung cư mini đầy đủ tiện nghi trang trí đẹp trang nhã có tủ đồ bàn ghế như nhà dân nhưng đéo muốn cho thuê fg fgfg fg fgfg f gfg fggfgfgrgrgjf gfdgo fdghjfdhg fhgjhfd gkhfdg fhgkjfd gjfdhgkfdkg fdhgk hfdjgh fdhgkjfd hgkhfdg hfdjg kfdhgkdfhgk
 								</div>
 								<div class="col-xs-12">
-									<img src="images/delete_icon_16.png" style="margin: 10px 0px;">
+									<button class="btn btn-default btn-sm pull-right" type="button">Xóa</button>
+									<button class="btn btn-default btn-sm pull-right" type="button">Sửa</button>
 								</div>
 							</div>
-						</div>
-						
+						</div>						
 					</div>
 				</div>
+
+
 			</div>
 		</div>
 	</div>
